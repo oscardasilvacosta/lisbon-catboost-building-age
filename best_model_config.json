@@ -1,0 +1,30 @@
+{
+  "feature_set_name": "all_features_plus_type",
+  "features": [
+    "BGRI_density",
+    "DIST_Marques",
+    "DIST_Pavilhao_Atlantico",
+    "DIST_Sa_Carneiro_Square",
+    "DIST_Terreiro_Paco",
+    "BGRI_LiDAR_intensity_STD",
+    "BGRI21_N_EDIFICIOS_1_OU_2_PISOS",
+    "LiDAR_elevation_Mean",
+    "LiDAR_Red_RGB_Mean",
+    "Compactness",
+    "PCT95",
+    "Type"
+  ],
+  "cat_feature_indices": [
+    11
+  ],
+  "params": {
+    "random_strength": 0,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 7,
+    "depth": 8,
+    "border_count": 254,
+    "bagging_temperature": 1
+  },
+  "best_mean_cv_macro_f1": 0.6472848276422508,
+  "best_sd_cv_macro_f1": 0.010353123093330871
+}

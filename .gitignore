@@ -1,0 +1,4 @@
+__pycache__/
+.venv/
+CatBoost_Age_Model_Output/
+catboost_info/
